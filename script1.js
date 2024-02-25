@@ -68,7 +68,16 @@ function displaySearchResults(array) {
     li.addEventListener('click', () => {
       let targetedProductId = item.product_Id;
       localStorage.setItem('clickedProductId', targetedProductId);
-      window.location.href = `/product.html`;
+      if(window.location.href.endsWith('index.html')){
+        let hrefSplitedArray = window.location.href.split('/');
+        hrefSplitedArray.forEach((href, index) => {
+          if(href.includes('index.html')){
+             hrefSplitedArray.splice(index, 1);
+          }
+        });
+        window.location.href = hrefSplitedArray.join('/');
+      }
+      window.location.href += `product.html`;
     })
   });
 }
@@ -232,7 +241,13 @@ productsBox.addEventListener('click', (e) => {
     let targetedProductId = targetElm.dataset.id;
     localStorage.setItem('clickedProductId', targetedProductId);
     if(window.location.href.endsWith('index.html')){
-      window.location.href = window.location.href.slice(0, window.location.href.length - 10);
+      let hrefSplitedArray = window.location.href.split('/');
+      hrefSplitedArray.forEach((href, index) => {
+        if(href.includes('index.html')){
+           hrefSplitedArray.splice(index, 1);
+        }
+      });
+      window.location.href = hrefSplitedArray.join('/');
     }
     window.location.href += `product.html`;
   }
