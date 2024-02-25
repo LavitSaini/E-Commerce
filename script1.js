@@ -231,7 +231,7 @@ productsBox.addEventListener('click', (e) => {
   if(targetElm.classList.contains('product-card-part')){
     let targetedProductId = targetElm.dataset.id;
     localStorage.setItem('clickedProductId', targetedProductId);
-    window.location.href = `E-Commerce/product.html`;
+    window.location.href = `/product.html`;
   }
 })
 
