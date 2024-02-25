@@ -65,20 +65,18 @@ function displaySearchResults(array) {
     li.append(i, span);
     searchResultRoot.append(li);
 
-    li.addEventListener('click', () => {
+    li.addEventListener("click", () => {
       let targetedProductId = item.product_Id;
-      localStorage.setItem('clickedProductId', targetedProductId);
-      if(window.location.href.endsWith('index.html')){
-        let hrefSplitedArray = window.location.href.split('/');
-        hrefSplitedArray.forEach((href, index) => {
-          if(href.includes('index.html')){
-             hrefSplitedArray.splice(index, 1);
-          }
-        });
-        window.location.href = hrefSplitedArray.join('/');
+      localStorage.setItem("clickedProductId", targetedProductId);
+      if (window.location.href.includes("index.html")) {
+        window.location.href = window.location.href.replace(
+          "index.html",
+          "product.html"
+        );
+      } else {
+        window.location.href += `product.html`;
       }
-      window.location.href += `product.html`;
-    })
+    });
   });
 }
 
@@ -231,25 +229,21 @@ cartItemsBox.addEventListener("click", (e) => {
   displayCartItems();
 });
 
-let allProductCards = document.querySelectorAll('.product-card')
-
+let allProductCards = document.querySelectorAll(".product-card");
 
 // function to redirect on product page if someone click on any item
-productsBox.addEventListener('click', (e) => {
+productsBox.addEventListener("click", (e) => {
   let targetElm = e.target;
-  if(targetElm.classList.contains('product-card-part')){
+  if (targetElm.classList.contains("product-card-part")) {
     let targetedProductId = targetElm.dataset.id;
-    localStorage.setItem('clickedProductId', targetedProductId);
-    if(window.location.href.endsWith('index.html')){
-      let hrefSplitedArray = window.location.href.split('/');
-      hrefSplitedArray.forEach((href, index) => {
-        if(href.includes('index.html')){
-           hrefSplitedArray.splice(index, 1);
-        }
-      });
-      window.location.href = hrefSplitedArray.join('/');
+    localStorage.setItem("clickedProductId", targetedProductId);
+    if (window.location.href.includes("index.html")) {
+      window.location.href = window.location.href.replace(
+        "index.html",
+        "product.html"
+      );
+    } else {
+      window.location.href += `product.html`;
     }
-    window.location.href += `product.html`;
   }
-})
-
+});
