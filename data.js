@@ -5,7 +5,7 @@ const productsData = [
     items: [
       {
         name: "T-shirt",
-        url: "/media/All Product Images/white-shirt.webp",
+        url: "media/All Product Images/white-shirt.webp",
         description: "Comfortable everyday cotton shirt.",
         price: 1499.99, // in INR
         qualityPoints: [
@@ -16,15 +16,15 @@ const productsData = [
           "Available in various sizes and colors to suit individual preferences.",
         ],
         relatedImages: [
-          "/media/All Product Images/white-shirt.webp",
-          "/media/All Product Images/white-shirt.webp",
-          "/media/All Product Images/white-shirt.webp",
+          "media/All Product Images/white-shirt.webp",
+          "media/All Product Images/white-shirt.webp",
+          "media/All Product Images/white-shirt.webp",
         ],
         clothCategory: "Shirts",
       },
       {
         name: "Polo Shirt",
-        url: "/media/All Product Images/pngimg.com-polo_shirt_PNG8143.webp",
+        url: "media/All Product Images/pngimg.com-polo_shirt_PNG8143.webp",
         description: "Classic stylish casual polo shirt.",
         price: 2199.99, // in INR
         qualityPoints: [
@@ -35,15 +35,15 @@ const productsData = [
           "Available in a range of colors to suit individual preferences.",
         ],
         relatedImages: [
-          "/media/All Product Images/pngimg.com-polo_shirt_PNG8143.webp",
-          "/media/All Product Images/pngimg.com-polo_shirt_PNG8143.webp",
-          "/media/All Product Images/pngimg.com-polo_shirt_PNG8143.webp",
+          "media/All Product Images/pngimg.com-polo_shirt_PNG8143.webp",
+          "media/All Product Images/pngimg.com-polo_shirt_PNG8143.webp",
+          "media/All Product Images/pngimg.com-polo_shirt_PNG8143.webp",
         ],
         clothCategory: "Shirts",
       },
       {
         name: "Button-down Shirt",
-        url: "/media/All Product Images/pngimg.com-dress_shirt_PNG8061.webp",
+        url: "media/All Product Images/pngimg.com-dress_shirt_PNG8061.webp",
         description: "Elegant formal button-down shirt.",
         price: 3199.99, // in INR
         qualityPoints: [
@@ -54,15 +54,15 @@ const productsData = [
           "Investing in this shirt is investing in timeless style and lasting quality.",
         ],
         relatedImages: [
-          "/media/All Product Images/pngimg.com-dress_shirt_PNG8061.webp",
-          "/media/All Product Images/pngimg.com-dress_shirt_PNG8061.webp",
-          "/media/All Product Images/pngimg.com-dress_shirt_PNG8061.webp",
+          "media/All Product Images/pngimg.com-dress_shirt_PNG8061.webp",
+          "media/All Product Images/pngimg.com-dress_shirt_PNG8061.webp",
+          "media/All Product Images/pngimg.com-dress_shirt_PNG8061.webp",
         ],
         clothCategory: "Shirts",
       },
       {
         name: "Flannel Shirt",
-        url: "/media/All Product Images/red shirt.webp",
+        url: "media/All Product Images/red shirt.webp",
         description: "Warm cozy outdoor flannel shirt.",
         price: 4499.99, // in INR
         qualityPoints: [
@@ -73,9 +73,9 @@ const productsData = [
           "Whether for camping, hiking, or everyday wear, this shirt delivers both warmth and style.",
         ],
         relatedImages: [
-          "/media/All Product Images/red shirt.webp",
-          "/media/All Product Images/red shirt.webp",
-          "/media/All Product Images/red shirt.webp",
+          "media/All Product Images/red shirt.webp",
+          "media/All Product Images/red shirt.webp",
+          "media/All Product Images/red shirt.webp",
         ],
         clothCategory: "Shirts",
       },
@@ -86,7 +86,7 @@ const productsData = [
     items: [
       {
         name: "Jeans",
-        url: "/media/All Product Images/pent.webp",
+        url: "media/All Product Images/pent.webp",
         description: "Classic denim casual jeans.",
         price: 5999.99, // in INR
         qualityPoints: [
@@ -97,15 +97,15 @@ const productsData = [
           "Investing in these jeans ensures enduring style and comfort for years to come.",
         ],
         relatedImages: [
-          "/media/All Product Images/pent.webp",
-          "/media/All Product Images/pent.webp",
-          "/media/All Product Images/pent.webp",
+          "media/All Product Images/pent.webp",
+          "media/All Product Images/pent.webp",
+          "media/All Product Images/pent.webp",
         ],
         clothCategory: "Pants",
       },
       {
         name: "Chinos",
-        url: "/media/All Product Images/Chino-Black_1082x.webp",
+        url: "media/All Product Images/Chino-Black_1082x.webp",
         description: "Versatile comfortable casual chinos.",
         price: 4999.99, // in INR
         qualityPoints: [
@@ -116,15 +116,15 @@ const productsData = [
           "With their durable construction, these chinos are a reliable choice for everyday wear.",
         ],
         relatedImages: [
-          "/media/All Product Images/Chino-Black_1082x.webp",
-          "/media/All Product Images/Chino-Black_1082x.webp",
-          "/media/All Product Images/Chino-Black_1082x.webp",
+          "media/All Product Images/Chino-Black_1082x.webp",
+          "media/All Product Images/Chino-Black_1082x.webp",
+          "media/All Product Images/Chino-Black_1082x.webp",
         ],
         clothCategory: "Pants",
       },
       {
         name: "Cargo Pants",
-        url: "/media/All Product Images/cargo.webp",
+        url: "media/All Product Images/cargo.webp",
         description: "Functional outdoor cargo pants.",
         price: 3999.99, // in INR
         qualityPoints: [
@@ -135,15 +135,15 @@ const productsData = [
           "Whether for hiking, camping, or everyday wear, these cargo pants deliver both style and utility.",
         ],
         relatedImages: [
-          "/media/All Product Images/cargo.webp",
-          "/media/All Product Images/cargo.webp",
-          "/media/All Product Images/cargo.webp",
+          "media/All Product Images/cargo.webp",
+          "media/All Product Images/cargo.webp",
+          "media/All Product Images/cargo.webp",
         ],
         clothCategory: "Pants",
       },
       {
         name: "Slim-fit Trousers",
-        url: "/media/All Product Images/mens-lycra-plain-formal-pant-500x500.webp",
+        url: "media/All Product Images/mens-lycra-plain-formal-pant-500x500.webp",
         description: "Modern elegant formal trousers.",
         price: 6999.99, // in INR
         qualityPoints: [
@@ -154,9 +154,9 @@ const productsData = [
           "Investing in these trousers ensures sophistication and confidence for any formal event.",
         ],
         relatedImages: [
-          "/media/All Product Images/mens-lycra-plain-formal-pant-500x500.webp",
-          "/media/All Product Images/mens-lycra-plain-formal-pant-500x500.webp",
-          "/media/All Product Images/mens-lycra-plain-formal-pant-500x500.webp",
+          "media/All Product Images/mens-lycra-plain-formal-pant-500x500.webp",
+          "media/All Product Images/mens-lycra-plain-formal-pant-500x500.webp",
+          "media/All Product Images/mens-lycra-plain-formal-pant-500x500.webp",
         ],
         clothCategory: "Pants",
       },
@@ -167,7 +167,7 @@ const productsData = [
     items: [
       {
         name: "Casual Dress",
-        url: "/media/All Product Images/pngimg.com-dress_PNG127.webp",
+        url: "media/All Product Images/pngimg.com-dress_PNG127.webp",
         description: "Relaxed easygoing summer dress.",
         price: 7999.99, // in INR
         qualityPoints: [
@@ -178,16 +178,16 @@ const productsData = [
           "With its charming design and comfort, this dress is a wardrobe staple for casual occasions.",
         ],
         relatedImages: [
-          "/media/All Product Images/pngimg.com-dress_PNG127.webp",
-          "/media/All Product Images/pngimg.com-dress_PNG127.webp",
-          "/media/All Product Images/pngimg.com-dress_PNG127.webp",
+          "media/All Product Images/pngimg.com-dress_PNG127.webp",
+          "media/All Product Images/pngimg.com-dress_PNG127.webp",
+          "media/All Product Images/pngimg.com-dress_PNG127.webp",
         ],
         clothCategory: "Dresses",
 
       },
       {
         name: "Evening Gown",
-        url: "/media/All Product Images/Red-dress.webp",
+        url: "media/All Product Images/Red-dress.webp",
         description: "Glamorous formal evening gown.",
         price: 12999.99, // in INR
         qualityPoints: [
@@ -198,15 +198,15 @@ const productsData = [
           "Investing in this evening gown guarantees an unforgettable, show-stopping look.",
         ],
         relatedImages: [
-          "/media/All Product Images/Red-dress.webp",
-          "/media/All Product Images/Red-dress.webp",
-          "/media/All Product Images/Red-dress.webp",
+          "media/All Product Images/Red-dress.webp",
+          "media/All Product Images/Red-dress.webp",
+          "media/All Product Images/Red-dress.webp",
         ],
         clothCategory: "Dresses",
       },
       {
         name: "Maxi Dress",
-        url: "/media/All Product Images/dress-png-26103 - Copy.webp",
+        url: "media/All Product Images/dress-png-26103 - Copy.webp",
         description: "Flowing elegant beach maxi.",
         price: 9999.99, // in INR
         qualityPoints: [
@@ -217,15 +217,15 @@ const productsData = [
           "With its timeless design and comfort, this maxi dress is a must-have for any wardrobe.",
         ],
         relatedImages: [
-          "/media/All Product Images/dress-png-26103 - Copy.webp",
-          "/media/All Product Images/dress-png-26103 - Copy.webp",
-          "/media/All Product Images/dress-png-26103 - Copy.webp",
+          "media/All Product Images/dress-png-26103 - Copy.webp",
+          "media/All Product Images/dress-png-26103 - Copy.webp",
+          "media/All Product Images/dress-png-26103 - Copy.webp",
         ],
         clothCategory: "Dresses",
       },
       {
         name: "Wrap Dress",
-        url: "/media/All Product Images/pngimg.com-dress_PNG149.webp",
+        url: "media/All Product Images/pngimg.com-dress_PNG149.webp",
         description: "Flattering chic wrap dress.",
         price: 8999.99, // in INR
         qualityPoints: [
@@ -236,9 +236,9 @@ const productsData = [
           "Investing in this wrap dress ensures timeless sophistication and confidence with every wear.",
         ],
         relatedImages: [
-          "/media/All Product Images/pngimg.com-dress_PNG149.webp",
-          "/media/All Product Images/pngimg.com-dress_PNG149.webp",
-          "/media/All Product Images/pngimg.com-dress_PNG149.webp",
+          "media/All Product Images/pngimg.com-dress_PNG149.webp",
+          "media/All Product Images/pngimg.com-dress_PNG149.webp",
+          "media/All Product Images/pngimg.com-dress_PNG149.webp",
         ],
         clothCategory: "Dresses",
       },
@@ -249,7 +249,7 @@ const productsData = [
     items: [
       {
         name: "Denim Jacket",
-        url: "/media/All Product Images/Jean-Jacket-PNG-Isolated-Pic.webp",
+        url: "media/All Product Images/Jean-Jacket-PNG-Isolated-Pic.webp",
         description: "Classic casual denim jacket.",
         price: 7999.99, // in INR
         qualityPoints: [
@@ -260,15 +260,15 @@ const productsData = [
           "With its enduring appeal and versatility, this denim jacket is a must-have for any season.",
         ],
         relatedImages: [
-          "/media/All Product Images/Jean-Jacket-PNG-Isolated-Pic.webp",
-          "/media/All Product Images/Jean-Jacket-PNG-Isolated-Pic.webp",
-          "/media/All Product Images/Jean-Jacket-PNG-Isolated-Pic.webp",
+          "media/All Product Images/Jean-Jacket-PNG-Isolated-Pic.webp",
+          "media/All Product Images/Jean-Jacket-PNG-Isolated-Pic.webp",
+          "media/All Product Images/Jean-Jacket-PNG-Isolated-Pic.webp",
         ],
         clothCategory: "Jackets",
       },
       {
         name: "Leather Jacket",
-        url: "/media/All Product Images/pngimg.com - leather_jacket_PNG29.webp",
+        url: "media/All Product Images/pngimg.com - leather_jacket_PNG29.webp",
         description: "Stylish rugged leather jacket.",
         price: 14999.99, // in INR
         qualityPoints: [
@@ -279,15 +279,15 @@ const productsData = [
           "Investing in this leather jacket guarantees timeless style and rugged elegance.",
         ],
         relatedImages: [
-          "/media/All Product Images/pngimg.com - leather_jacket_PNG29.webp",
-          "/media/All Product Images/pngimg.com - leather_jacket_PNG29.webp",
-          "/media/All Product Images/pngimg.com - leather_jacket_PNG29.webp",
+          "media/All Product Images/pngimg.com - leather_jacket_PNG29.webp",
+          "media/All Product Images/pngimg.com - leather_jacket_PNG29.webp",
+          "media/All Product Images/pngimg.com - leather_jacket_PNG29.webp",
         ],
         clothCategory: "Jackets",
       },
       {
         name: "Bomber Jacket",
-        url: "/media/All Product Images/Simple Jacket.webp",
+        url: "media/All Product Images/Simple Jacket.webp",
         description: "Trendy urban bomber jacket.",
         price: 9999.99, // in INR
         qualityPoints: [
@@ -298,15 +298,15 @@ const productsData = [
           "With its trendy design and comfort, this bomber jacket is a standout piece in any wardrobe.",
         ],
         relatedImages: [
-          "/media/Bomber Jacket Images/Bomber2.webp",
-          "/media/Bomber Jacket Images/Bomber3.webp",
-          "/media/Bomber Jacket Images/Bomber4.webp",
+          "media/Bomber Jacket Images/Bomber2.webp",
+          "media/Bomber Jacket Images/Bomber3.webp",
+          "media/Bomber Jacket Images/Bomber4.webp",
         ],
         clothCategory: "Jackets",
       },
       {
         name: "Trench Coat",
-        url: "/media/All Product Images/pngimg.com - coat_PNG33.webp",
+        url: "media/All Product Images/pngimg.com - coat_PNG33.webp",
         description: "Sophisticated classic trench coat.",
         price: 12999.99, // in INR
         qualityPoints: [
@@ -317,9 +317,9 @@ const productsData = [
           "Investing in this trench coat ensures enduring style and sophistication for years to come.",
         ],
         relatedImages: [
-          "/media/All Product Images/pngimg.com - coat_PNG33.webp",
-          "/media/All Product Images/pngimg.com - coat_PNG33.webp",
-          "/media/All Product Images/pngimg.com - coat_PNG33.webp",
+          "media/All Product Images/pngimg.com - coat_PNG33.webp",
+          "media/All Product Images/pngimg.com - coat_PNG33.webp",
+          "media/All Product Images/pngimg.com - coat_PNG33.webp",
         ],
         clothCategory: "Jackets",
       },
