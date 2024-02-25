@@ -1,0 +1,156 @@
+// Container
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0rem 2rem;
+}
+
+// Grid Classes
+
+.grid {
+  display: grid;
+}
+
+.grid-template-columns {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.content-center {
+  place-content: center;
+}
+
+.items-center {
+  place-items: center;
+}
+
+// Flex Classes
+
+.flex {
+  display: flex;
+}
+
+.flex-direction {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-start {
+  justify-content: start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-start {
+  align-items: start;
+}
+
+// Text Classes
+
+.text-center {
+  text-align: center;
+}
+
+// Padding Classes
+.padding-1x {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.padding-2x {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.padding-4x {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+// Active Class
+.navbar .nav-icons .active {
+  color: #000000;
+}
+
+// Root Variables
+
+// Colors
+$first: #d2d2d2;
+$second: #2f2f2f;
+
+
+// Product Card Styles (Create a Extend for Inheritance)
+
+%productCard {
+  .product-card {
+    background-color: #d2d2d2;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    gap: 1rem;
+    box-shadow: 0px 0px 6px 3px #2f2f2f7d;
+    perspective: 180px;
+    &:hover {
+      background: linear-gradient(
+        rgba(26, 26, 26, 0.285),
+        rgba(26, 26, 26, 0.285)
+      );
+    }
+    &:hover .product-img {
+      transform: rotateY(20deg);
+    }
+
+    .product-img {
+      transition: transform 300ms linear;
+      img {
+        width: 100%;
+        height: 12rem;
+        object-fit: cover;
+        filter: drop-shadow(2px 2px 4px #00000080);
+      }
+    }
+    .product-content {
+      gap: 1rem;
+      .product-title {
+        color: $second;
+        h3 {
+          font-size: 1.25rem;
+          font-weight: 500;
+          margin-bottom: 0.75rem;
+        }
+        p {
+          font-size: 0.75rem;
+          font-weight: 500;
+          line-height: 1.2;
+        }
+      }
+
+      .product-price {
+        h4 {
+          font-size: 0.9rem;
+          font-weight: 600;
+          margin-bottom: 1rem;
+        }
+
+        i {
+          cursor: pointer;
+          transition: transform 200ms linear;
+          &:hover {
+            transform: scale(1.25);
+          }
+        }
+      }
+    }
+  }
+}

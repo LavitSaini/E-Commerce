@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header padding-1x">
+        <nav class="navbar flex justify-between align-center container">
+            <div class="nav-brand">
+                <a href="index.html" class="logo">E-Commerce</a>
+            </div>
+            <ul class="nav-icons flex">
+                <li>
+                    <a href="#" class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="cart-items-counter">0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Product Box Section -->
+        <div class="product-box padding-2x"></div>
+
+        <!-- Products Suggestion Section -->
+        <div class="products-suggestion padding-2x">
+
+            <h2 class="container">Similar Clothes</h2>
+
+            <div class="suggested-products container"></div>
+
+        </div>
+
+        <!-- Cart Sidebar Section -->
+        <aside class="cart-sidebar">
+            <div class="cart-header flex justify-between align-center">
+                <h2>Shopping Cart</h2>
+                <div class="cart-close flex align-center">
+                    <button class="cart-close-btn">Close</button>
+                </div>
+            </div>
+            
+            <div class="cart-body flex flex-direction"></div>   
+
+            <div class="cart-footer">
+                <a class="cart-page-btn cart-btn" href="#">Cart</a>
+                <a class="checkout-btn cart-btn" href="#">Checkout</a>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Javascript -->
+    <script src="data.js"></script>
+    <script src="script2.js"></script>
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/8a2cca48dc.js" crossorigin="anonymous"></script>
+</body>
+</body>
+
+</html>
