@@ -35,7 +35,7 @@
         img {
           width: 100%;
           height: 8rem;
-          object-fit: cover;
+          object-fit: contain;
           transition: transform 300ms linear;
           transform: scale(0.9);
         }
@@ -231,26 +231,21 @@
   html {
     font-size: 10px;
   }
-
-  .product-box {
-    .product {
-      .product-images {
-        .related-images {
-          .img-box {
-            img {
-              object-fit: cover;
-            }
-          }
-        }
-      }
-    }
-  }
 }
 
 @media screen and (max-width: 300px) {
+  html{
+    font-size: 9px;
+  }
   .products-suggestion {
     .suggested-products {
       grid-auto-columns: calc(100% - 3rem);
     }
+  }
+}
+
+@media screen and (max-width: 268px){
+  html{
+    font-size: 8px;
   }
 }

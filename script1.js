@@ -117,7 +117,7 @@ cartOpen.addEventListener("click", () => {
 });
 
 cartClose.addEventListener("click", () => {
-  cartBar.style.right = "-50%";
+  cartBar.style.right = "-100%";
 });
 
 let cart = localStorage.getItem("cart")
@@ -231,7 +231,7 @@ productsBox.addEventListener('click', (e) => {
   if(targetElm.classList.contains('product-card-part')){
     let targetedProductId = targetElm.dataset.id;
     localStorage.setItem('clickedProductId', targetedProductId);
-    window.location.href = `/product.html`;
+    window.location.href += `/product.html`;
   }
 })
 
