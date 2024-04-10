@@ -242,8 +242,6 @@ productsBox.addEventListener("click", (e) => {
         "index.html",
         "product.html"
       );
-    } else {
-      window.location.href += `product.html`;
     }
   }
 });
