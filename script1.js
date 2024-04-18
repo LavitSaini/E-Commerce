@@ -6,6 +6,21 @@ let allItems = productsData.map((sec) => sec.items).flat(1);
 // Accessing products container box
 let productsBox = document.querySelector(".products-sections-box");
 
+// Accesing logo link to refresh page one time when website is opened
+let logoLink = document.querySelector(".logo");
+
+// Auto click on logoLink element once when page is loaded first time
+(() => {
+  if (window.localStorage) {
+    if (!JSON.parse(localStorage.getItem("reload"))) {
+      window.localStorage.setItem("reload", JSON.stringify(true));
+      logoLink.click();
+    } else {
+      localStorage.removeItem("reload");
+    }
+  }
+})();
+
 // function to show all the products
 function displayAllProducts(array) {
   let clutter = ``;
